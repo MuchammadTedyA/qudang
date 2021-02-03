@@ -26,7 +26,7 @@
                 <option value="{{$item->id_barang}}">{{$item->nama_barang}}</option>
                 @endforeach --}}
             </select>
-            <label for="floatingInput">Jumlah Batch</label>
+            <label for="floatingInput">Nama Barang</label>
         </div>
         <div class="form-floating mb-3" style=" margin: 30px">
             <select name="nama_departemen" class="form-select">
@@ -34,7 +34,7 @@
                 <option value="{{$item->id_departemen}}">{{$item->nama_departemen}}</option>
                 @endforeach --}}
             </select>
-            <label for="floatingInput">Jumlah Batch</label>
+            <label for="floatingInput">Nama Supplier</label>
         </div>
 
         <div class="form-floating mb-3" style=" margin: 30px">

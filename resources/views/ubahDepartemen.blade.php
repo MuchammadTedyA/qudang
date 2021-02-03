@@ -1,6 +1,6 @@
 @extends('index')
 @section('judul')
-  Ubah Barang
+  Ubah Departemen
 @stop
 
 @section('section')
@@ -11,8 +11,8 @@
 @endif
 <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="../dataBarang">Data Barang</a></li>
-      <li class="breadcrumb-item active" aria-current="page">Ubah Barang</li>
+      <li class="breadcrumb-item"><a href="../departemen">Departemen</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Ubah Departemen</li>
     </ol>
   </nav>
 <div class="card">
